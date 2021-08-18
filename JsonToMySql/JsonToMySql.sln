@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToMySql", "JsonToMySql\JsonToMySql.csproj", "{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToMySql", "JsonToMySql.csproj", "{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,18 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{62DB02E9-8B31-40EA-9737-CBE9314978A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62DB02E9-8B31-40EA-9737-CBE9314978A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62DB02E9-8B31-40EA-9737-CBE9314978A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62DB02E9-8B31-40EA-9737-CBE9314978A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED0D97B-A2BC-4FC9-8E4F-DC94F913B202}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4ECE361-A288-463F-94AE-E7AE1E30C4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4ECE361-A288-463F-94AE-E7AE1E30C4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4ECE361-A288-463F-94AE-E7AE1E30C4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4ECE361-A288-463F-94AE-E7AE1E30C4B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -121,7 +121,7 @@ namespace JsonToMySql.Classes
 				{
 					var col = cols[i];
 					var prop = type.GetProperty(col);
-					var value = prop.GetValue(item).ToString() ?? "NULL";
+					var value = prop.GetValue(item) != null ? prop.GetValue(item).ToString() : "NULL";
 					if (DataTypeIsNeedQuote(sqlDataType[i]))
 					{
 						value = $"'{value}'";

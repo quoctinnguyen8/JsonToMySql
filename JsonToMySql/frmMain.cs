@@ -113,7 +113,7 @@ namespace JsonToMySql
 			lblInfo.Text = "Đang đọc dữ liệu...";
 			var fileContent = await File.ReadAllTextAsync(fileDialog.FileName);
 			StringBuilder contentBuilder = new StringBuilder(fileContent);
-			contentBuilder.Replace("}\n", "},");
+			contentBuilder.Replace("}\n{", "},{");
 			if (contentBuilder[0] != '[')
 			{
 				contentBuilder.Insert(0, "[");
