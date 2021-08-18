@@ -1,5 +1,5 @@
 # Convert Json to MySQL
-Project được thiết kế cho mục đích riêng nên có thể không hoạt động với các nhu cầu khác
+Project được thiết kế cho mục đích riêng nên có thể không hoạt động với các nhu cầu khác.
 Project giả định dữ liệu đầu vào là phù hợp
 
 ## Công nghệ
